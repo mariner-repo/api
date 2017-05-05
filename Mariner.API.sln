@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mariner.API", "Mariner.API\Mariner.API.csproj", "{3810425B-74CE-48D4-B458-528CE37A1660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mariner.CORE", "Mariner.CORE\Mariner.CORE.csproj", "{8519E7E1-BBA8-42EC-9275-FB4369E82160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mariner.DAL", "Mariner.DAL\Mariner.DAL.csproj", "{8C097A6C-5371-4829-9715-4FCDDF563456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mariner.DOMAIN", "Mariner.DOMAIN\Mariner.DOMAIN.csproj", "{54E19E18-201C-4844-BBC4-5FD3B1F0A927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mariner.TEST", "Mariner.TEST\Mariner.TEST.csproj", "{B2436FCC-1135-4668-ACD2-39F08D50FC58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A508D333-1CF8-4F1C-9511-C8D524BAB9DE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3810425B-74CE-48D4-B458-528CE37A1660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3810425B-74CE-48D4-B458-528CE37A1660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3810425B-74CE-48D4-B458-528CE37A1660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3810425B-74CE-48D4-B458-528CE37A1660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8519E7E1-BBA8-42EC-9275-FB4369E82160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8519E7E1-BBA8-42EC-9275-FB4369E82160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8519E7E1-BBA8-42EC-9275-FB4369E82160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8519E7E1-BBA8-42EC-9275-FB4369E82160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C097A6C-5371-4829-9715-4FCDDF563456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C097A6C-5371-4829-9715-4FCDDF563456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C097A6C-5371-4829-9715-4FCDDF563456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C097A6C-5371-4829-9715-4FCDDF563456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E19E18-201C-4844-BBC4-5FD3B1F0A927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E19E18-201C-4844-BBC4-5FD3B1F0A927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E19E18-201C-4844-BBC4-5FD3B1F0A927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E19E18-201C-4844-BBC4-5FD3B1F0A927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2436FCC-1135-4668-ACD2-39F08D50FC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2436FCC-1135-4668-ACD2-39F08D50FC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2436FCC-1135-4668-ACD2-39F08D50FC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2436FCC-1135-4668-ACD2-39F08D50FC58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
